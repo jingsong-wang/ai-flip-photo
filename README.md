@@ -39,4 +39,4 @@ Preserve PNG pixels for reproduction: JPEG compression, screenshots, social medi
 
 Inspired by Quiring et al., **Adversarial Preprocessing: Understanding and Preventing Image-Scaling Attacks in Machine Learning**, USENIX Security 2020: https://www.usenix.org/conference/usenixsecurity20/presentation/quiring . This is an independently implemented, simple educational construction, not a full paper reproduction or a measured jailbreak against an AI model.
 
-Unit tests use hand-derived pixel fixtures to check unchanged source data, exact hidden-target recovery, fractional area weights, identity, RGB error and validation. Browser checks cover desktop/mobile presentation, real sampling, custom uploads and exports.
+Unit tests use hand-derived pixel fixtures to check unchanged source data, exact hidden-target recovery, fractional area weights, identity, RGB error and validation. Browser checks verified desktop/narrow presentation, live sampling, resolution controls and comparison-card generation on the published page. Automated custom-file upload verification was interrupted by a browser file-chooser timeout and remains a manual check.
